@@ -14,5 +14,3 @@ RUN \
     echo 'zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.2.so' > /usr/local/etc/php/conf.d/00-ioncube.ini && \
     # remove files
     rm -rf /tmp/ioncube && rm /tmp/ioncube_loaders_lin_x86-64.tar.gz
-
-COPY ./docker/server-conf/nginx/ /etc/nginx/
